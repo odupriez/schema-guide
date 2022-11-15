@@ -1,0 +1,37 @@
+--- 
+title: "[DRAFT] Metadata Standards and Schemas for Improved Data Discoverability and Usability"
+author: "Olivier Dupriez and Mehmood Asghar"
+date: "2022-11-15"
+knit: bookdown::render_book
+site: bookdown::bookdown_site
+documentclass: krantz
+monofont: "Source Code Pro"
+monofontoptions: "Scale=0.7"
+biblio-style: apalike
+link-citations: yes
+description: ""
+github-repo: ""
+cover-image: "./images/cover2.jpg"
+url: ''
+colorlinks: yes
+graphics: yes
+---
+
+# Preface {-}
+
+<p style="text-align: center;"><img src="images/cover2.JPG"/></p>
+The volume and the diversity of data made available to the research community are growing fast. But too many valuable datasets remain largely under-exploited. To be used more extensively, data must be made easier to find, understand, access, and analyze. The documentation, cataloguing, and dissemination of data must be improved. The discoverability, accessibility, and usability of data depend very much on the quality of the associated metadata. This document is a guide on the use of metadata standards and schemas for the documentation of socio-economic data of different types. Its objective is to promote and facilitate the production and exploitation of rich and structured metadata. Although it describes standards and schemas that are independent from any particular software application, it was written as a companion guide to a suite of open source tools developed for the International Household Survey Network, including the [NADA cataloguing](http://nada.ihsn.org/) application and a specialized Metadata Editor. 
+
+The Guide was written by Olivier Dupriez (Lead Data Scientist, World Bank) and Mehmood Asghar (Senior Data Engineer, World Bank). Kamwoo Lee (Data Scientist, World Bank) produced some of the examples of the use of metadata schemas included in the Guide and contributed to the testing of the schemas. Emmanuel Blondel (Consultant) contributed much of chapter 6. Geoffrey Greenwell (Consultant) provided input to chapter 8. Tefera Bekele Degefu and Cathrine Machingauta (Data Scientists, World Bank) participated in the testing of the schemas and packages. Matthew Welch (Senior Economist-Statistician, World Bank) provided comments on the Guide.
+
+The production of the Guide and related tools has been made possible by financial contributions from:
+
+   - The [International Household Survey Network (IHSN)](www.ihsn.org) Trust Fund, project P167116, Grant No TF0A7461, by the UK government.
+   - The UK Aid-UNHCR-World Bank research program Building the Evidence on Protracted Forced Displacement, funded by the UK government (FCV Data Platform component, project P174529, Grant No TF0B4149). This project supported the development of a data platform which led to the improvement and testing of some of the metadata schemas described in the Guide.
+   - The World Bank-UNHCR Joint Data Center Microdata Library project P174080, Grant No TF0B4772, administered by the World Bank Development Data Group.
+   - The World Bank administrative budget.
+
+The Guide was created using [R Bookdown](https://bookdown.org/) and is licensed under a [Creative Commons Attribution- NonCommercial- NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/). We welcome feedback and suggestions, as well as direct contributions to the editing and improvement of the document. The Guide's source code is stored in GitHub (https://github.com/mah0001/schema-guide). Feedback and suggestions can be sent to [odupriez@worldbank.org]
+
+![](./images/index_ccby_logo.png){width=20%}
+</center>
