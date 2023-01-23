@@ -141,7 +141,7 @@ The documentation of the schema starts with a few elements which are not metadat
 ### Document description  
 
 **`doc_desc`** *[Optional ; Not repeatable]* <br>
-Documenting a study using the DDI-Codebook standard consists of generating a metadata file in XML or JSON format. This file is what is referred to as the metadata *document*. The `doc_desc` or **document description** is thus a description of the metadata file, and consists of bibliographic information describing the DDI-compliant document as a whole. As a same dataset can possibly be documented by more than one organization, and because metadata can be automatically harvested by on-line catalogs, traceability of the metadata is important. This section, which only contains five main elements, should be as complete as possible, and at least contain information on the `producer` and `prod_date`; information.
+Documenting a study using the DDI-Codebook standard consists of generating a metadata file in XML or JSON format. This file is what is referred to as the metadata *document*. The `doc_desc` or **document description** is thus a description of the metadata file, or metadata on the metadata. It consists of bibliographic information describing the DDI-compliant document as a whole. As a same dataset can possibly be documented by more than one organization, and because metadata can be automatically harvested by on-line catalogs, traceability of the metadata is important. This section, which only contains five main elements, should be as complete as possible, and at least contain information on the `producer` and `prod_date`; information.
 
 ![](./images/ReDoc_Microdata_02.JPG){width=100%}
 
